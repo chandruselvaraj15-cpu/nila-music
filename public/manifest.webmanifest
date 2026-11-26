@@ -1,0 +1,11 @@
+{
+  "name": "NILA MUSIC",
+  "short_name": "NILA",
+  "description": "NILA MUSIC - Feel Every Beat.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080711",
+  "theme_color": "#080711",
+  "orientation": "portrait",
+  "icons": []
+}
