@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ThemeToggle from "./ThemeToggle";
 import {
   Home, Search, Library, Heart, Play, Pause,
   SkipBack, SkipForward, Music2, Headphones, Sparkles
@@ -18,6 +19,7 @@ export default function App() {
         </div>
         <button className="avatar"><Sparkles /></button>
       </header>
+      <ThemeToggle />
       <section className="welcome">
         <p className="eyebrow">YOUR MUSIC UNIVERSE</p>
         <h2>Every beat has<br /><span>a feeling.</span></h2>
